@@ -180,7 +180,7 @@ services:
 
       # 🔐 Auth (GoTrue) configuration
       - APPFLOWY_GOTRUE_JWT_SECRET=${GOTRUE_JWT_SECRET} # required
-      - APPFLOWY_GOTRUE_JWT_EXP=${GOTRUE_GOTRUE_JWT_EXP} # optional: token expiry in seconds
+      - APPFLOWY_GOTRUE_JWT_EXP=${GOTRUE_JWT_EXP} # optional: token expiry in seconds
       - APPFLOWY_GOTRUE_BASE_URL=${APPFLOWY_GOTRUE_BASE_URL} # required
 
       # 🪣 Object storage configuration (MinIO/S3)
